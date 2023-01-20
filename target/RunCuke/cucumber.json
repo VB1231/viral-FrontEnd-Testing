@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": ": I am on virgin game homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 167882200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to accept cookies",
+            "match": {
+              "location": "HomePageSteps.iHaveToAcceptCookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287046100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see virgin game homepage",
+            "match": {
+              "location": "HomePageSteps.iCanSeeVirginGameHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4109688600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I am on virgin homepage",
+        "description": "",
+        "id": "test-virgingame;i-am-on-virgin-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 68700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have to click on OnlineSlot",
+            "match": {
+              "location": "HomePageSteps.iHaveToClickOnOnlineSlot()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142482100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on OnlineSlot",
+            "match": {
+              "location": "HomePageSteps.iClickOnOnlineSlot()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244418900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see message \"Play Online Slots at Virgin Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Play Online Slots at Virgin Games",
+                  "offset": 19
+                }
+              ],
+              "location": "HomePageSteps.iCanSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test VirginGame",
+    "description": "I as a user test virgin game test",
+    "id": "test-virgingame",
+    "keyword": "Feature",
+    "uri": "virginfeature.feature"
+  }
+]
